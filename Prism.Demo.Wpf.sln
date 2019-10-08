@@ -11,6 +11,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02-Regions", "02-Regions", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Regions", "Regions\Regions.csproj", "{A43BE757-75B6-42BE-ABA7-B979CBA11AA0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03-CustomRegions", "03-CustomRegions", "{8AA9AAAF-DB48-4E34-9CB9-718B227983DE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomRegions", "CustomRegions\CustomRegions.csproj", "{DA6C4A85-775B-414F-86B8-9F04412E8AA6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +29,10 @@ Global
 		{A43BE757-75B6-42BE-ABA7-B979CBA11AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A43BE757-75B6-42BE-ABA7-B979CBA11AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A43BE757-75B6-42BE-ABA7-B979CBA11AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA6C4A85-775B-414F-86B8-9F04412E8AA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA6C4A85-775B-414F-86B8-9F04412E8AA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA6C4A85-775B-414F-86B8-9F04412E8AA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA6C4A85-775B-414F-86B8-9F04412E8AA6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +40,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{6139F1CE-DFA0-4DB3-8E62-357ECA3DCCAA} = {3B288AB8-84AE-418A-8927-47507A2A7D7F}
 		{A43BE757-75B6-42BE-ABA7-B979CBA11AA0} = {2A336E98-0B8D-433A-9358-EA9D8CC7CBA8}
+		{DA6C4A85-775B-414F-86B8-9F04412E8AA6} = {8AA9AAAF-DB48-4E34-9CB9-718B227983DE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54E7C8F6-F56F-4E96-B61B-EAFDC05B6CBE}
