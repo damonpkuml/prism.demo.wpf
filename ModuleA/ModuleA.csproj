@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <AssemblyName>ModuleA</AssemblyName>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Prism.Wpf" Version="7.2.0.1367" />
+  </ItemGroup>
+  <PropertyGroup>
+    <!--<PostBuildEvent>xcopy "$(TargetDir)*.*" "$(SolutionDir)\$(SolutionName)\$(OutDir)" /Y</PostBuildEvent>-->
+    <!--下面这句话，项目生成的时候除了输出到项目bin目录，还输出到Modules项目的bin目录下-->
+    <PostBuildEvent>xcopy "$(TargetDir)*.*" "$(SolutionDir)\Modules\bin\Debug\netcoreapp3.0\" /Y</PostBuildEvent>
+  </PropertyGroup>
+</Project>
