@@ -1,0 +1,19 @@
+﻿<Window x:Class="ActivationDeactivation.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ActivationDeactivation.Views"
+        xmlns:prism="http://prismlibrary.com/"
+        mc:Ignorable="d"
+        Title="区域视图激活和反激活" Height="450" Width="800">
+    <DockPanel LastChildFill="True">
+        <StackPanel>
+            <Button Name="Btn1" Content="Activate A" Click="Btn1_OnClick"></Button>
+            <Button Name="Btn2" Content="DeActivate A" Click="Btn2_OnClick"></Button>
+            <Button Name="Btn3" Content="Activate B" Click="Btn3_OnClick"></Button>
+            <Button Name="Btn4" Content="DeActivate B" Click="Btn4_OnClick"></Button>
+        </StackPanel>
+        <ContentControl prism:RegionManager.RegionName="ContentRegion"></ContentControl>
+    </DockPanel>
+</Window>
