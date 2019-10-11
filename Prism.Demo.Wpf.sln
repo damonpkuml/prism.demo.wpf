@@ -63,6 +63,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10-CustomRegistrations", "1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewModelLocator3", "ViewModelLocator3\ViewModelLocator3.csproj", "{0D679C39-72FE-4468-BAB1-1B9ACD81CFF1}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11-UsingDelegateCommands", "11-UsingDelegateCommands", "{92E7336A-E783-49F0-91F6-7F68FE126C32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UsingDelegateCommands", "UsingDelegateCommands\UsingDelegateCommands.csproj", "{7F916687-4E0A-4EEF-A8B4-51C2B1A1800B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +141,10 @@ Global
 		{0D679C39-72FE-4468-BAB1-1B9ACD81CFF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D679C39-72FE-4468-BAB1-1B9ACD81CFF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D679C39-72FE-4468-BAB1-1B9ACD81CFF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F916687-4E0A-4EEF-A8B4-51C2B1A1800B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F916687-4E0A-4EEF-A8B4-51C2B1A1800B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F916687-4E0A-4EEF-A8B4-51C2B1A1800B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F916687-4E0A-4EEF-A8B4-51C2B1A1800B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -159,6 +167,7 @@ Global
 		{39D6D932-2077-40A0-B662-3E1C38A3ADB4} = {AC8B7411-9993-4252-AFBA-C1AD20D93A5F}
 		{17D0FD06-C8C5-43E5-8CC0-5744D099D522} = {BB7A45D8-E2D7-4781-8632-522746BCB1D1}
 		{0D679C39-72FE-4468-BAB1-1B9ACD81CFF1} = {3071CF72-0153-4564-9145-0EB0DB168ED5}
+		{7F916687-4E0A-4EEF-A8B4-51C2B1A1800B} = {92E7336A-E783-49F0-91F6-7F68FE126C32}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {54E7C8F6-F56F-4E96-B61B-EAFDC05B6CBE}

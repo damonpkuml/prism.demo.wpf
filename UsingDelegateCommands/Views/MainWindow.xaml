@@ -1,0 +1,22 @@
+﻿<Window x:Class="UsingDelegateCommands.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UsingDelegateCommands.Views"
+        xmlns:prism="http://prismlibrary.com/"
+        prism:ViewModelLocator.AutoWireViewModel="True"
+        mc:Ignorable="d"
+        Title="使用委托命令" Height="450" Width="800">
+    <StackPanel>
+        <CheckBox Content="命令是否可用" IsChecked="{Binding IsEnable}" Margin="10"></CheckBox>
+        <Button Content="最简单的委托命令" Command="{Binding ExecuteDelegateCommand}" Margin="10"></Button>
+        <Button Content="观察属性变更的委托命令" Command="{Binding DelegateCommandObservesProperty}"
+                Margin="10"/>
+        <Button Content="观察委托变更的委托命令(上面的简写)" Command="{Binding DelegateCommandObservesCanExecute}"
+                Margin="10"></Button>
+        <Button Content="通用的委托命令(带参数)" Command="{Binding DelegateCommandWithParameter}"
+                CommandParameter="我是委托命令参数" Margin="10"></Button>
+        <TextBlock Text="{Binding OutputText}" FontSize="10" Margin="10"></TextBlock>
+    </StackPanel>
+</Window>
