@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29324.140
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicRegionNavigation", "BasicRegionNavigation\BasicRegionNavigation.csproj", "{9214B09D-D03F-46AA-80C2-D6CD94BD18F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{C460E348-4C03-484E-809A-3B67340B1A9A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9214B09D-D03F-46AA-80C2-D6CD94BD18F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9214B09D-D03F-46AA-80C2-D6CD94BD18F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9214B09D-D03F-46AA-80C2-D6CD94BD18F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9214B09D-D03F-46AA-80C2-D6CD94BD18F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C460E348-4C03-484E-809A-3B67340B1A9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C460E348-4C03-484E-809A-3B67340B1A9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C460E348-4C03-484E-809A-3B67340B1A9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C460E348-4C03-484E-809A-3B67340B1A9A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {30CCF528-A15F-4336-93FC-33A77091C6B0}
+	EndGlobalSection
+EndGlobal
