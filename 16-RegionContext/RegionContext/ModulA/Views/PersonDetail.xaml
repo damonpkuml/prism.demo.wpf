@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="ModulA.Views.PersonDetail"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:ModulA.Views"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <UserControl.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="5"></Setter>
+        </Style>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <!--FirstName-->
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="FirstName: "></TextBlock>
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="{Binding SelectedPerson.FirstName}"></TextBlock>
+        <!--LastName-->
+        <TextBlock Grid.Row="1" Grid.Column="0" Text="LastName: "></TextBlock>
+        <TextBlock Grid.Row="1" Grid.Column="1" Text="{Binding SelectedPerson.LastName}"></TextBlock>
+        <!--Age-->
+        <TextBlock Grid.Row="2" Grid.Column="0" Text="Age: "></TextBlock>
+        <TextBlock Grid.Row="2" Grid.Column="1" Text="{Binding SelectedPerson.Age}"></TextBlock>
+    </Grid>
+</UserControl>
